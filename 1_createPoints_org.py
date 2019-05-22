@@ -1,12 +1,11 @@
 
-# This script was  used to create sample points between every 20m along the street network of Helsinki.
+# This script is used to create sample points between every 20m along the street network of Helsinki.
 # The sample point locations are later used for downloading the GSV metadata from Google API 
 
 # Copyright(C) Ian Seiferling, Xiaojiang Li, Marwa Abdulhai, Senseable City Lab, MIT First version July 21 2017
-
 # Modified by Akseli Toikka and Ville Mäkinen Finnish Geospatial Research Institute FGI. National Land Survey of Finland 
 
-# now run the python file: createPoints.py, the input shapefile has to be in projection of WGS84, 4326
+# make sure the input shapefile of roadnetwork is in projection of WGS84, EPSG 4326
 
 def createPoints(inshp, outshp, mini_dist):
     
