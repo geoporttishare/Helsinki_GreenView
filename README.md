@@ -12,14 +12,14 @@ Data in: OpenStreetMap road network of Helsinki
 
 Data out: Sample points between every 20m along the street network of wanted road segments.
 
-Use script: createPoints.py
+Use script: [1_createPoints.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/1_createPoints_org.py)
 
 ### 2. Download the metadata based on the sample point locations
 Data in: Sample points
 
 Data out: Metadata text file of the panoramas located at the sample point locations
 
-Use script: metadataCollector.py
+Use script: [2_metadataCollector.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/2_metadataCollector.py)
 
 You also need: Google API key
 
@@ -28,7 +28,7 @@ Data in: downloaded metadata
 
 Data out: GSV images of sample point locations. Every panorama is downloaded in 6 images 
 
-Use script: GSV_image_downloader.py, GSV_image_download_batch
+Use script: [3_GSV_image_downloader.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/3_GSV_image_downloader.py), GSV_image_download_batch
 
 You also need: Google API key, Google signing signature
 
@@ -38,7 +38,7 @@ Data in: GSV images
 
 Data out: GVI values for sample site locations.
 
-Use script: GVI_local_calculator.py, GVI_local_calculator_batch
+Use script: [4_GVI_local_calculator.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/4_GVI_local_calculator.py), GVI_local_calculator_batch
 
 ### 5. Save as shapefile
 
@@ -46,6 +46,6 @@ Data in: GVI values.csv
 
 Data out: GVI_Helsinki.shp
 
-Use script: GVI_to_shp.py
+Use script: [5_GVI_to_shp.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/5_GVI_to_shp.py)
 
 
