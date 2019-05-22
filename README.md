@@ -1,8 +1,10 @@
+<img src="https://github.com/geoportti/Logos/blob/master/geoportti_logo_300px.png">
+
 # Helsinki_GreenView
 
-This repository contains needed scripts for calculating the Green View Index (GVI) for Google street view images in Helsinki. The scripts were used in Master's thesis of Akseli Toikka from the Finnish Geospatial Research Institute (FGI), Department of Geoinformatics and Cartography. Thesis available at LINKKI
+This repository contains scripts and instructions for calculating the Green View Index (GVI) for Google Street View (GSV) images in Helsinki. The scripts were used in Master's thesis of Akseli Toikka from the Finnish Geospatial Research Institute (FGI), Department of Geoinformatics and Cartography. Thesis available at LINKKI
 
-The modified scripts are based on the Treepedia_Public repository by @mittrees and are originally created by Ian Seiferling, Xiaojiang Li, Marwa Abdulhai, Senseable City Lab, MIT. For further information on GVI and Treepedia visit: [https://github.com/mittrees/Treepedia_Public]
+The modified scripts are based on the Treepedia_Public repository by @mittrees and are originally created by Ian Seiferling, Xiaojiang Li, Marwa Abdulhai, Senseable City Lab, MIT. For further information on GVI and Treepedia, visit: [https://github.com/mittrees/Treepedia_Public]
 
 ## Workflow
 ### 1. Create sample points along the street network of Helsinki
