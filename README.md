@@ -43,9 +43,6 @@ Based on the metadata information you now know when are the images taken. You ca
 **You also need**: Google API key, Google signing signature
 
 
-<img src=
-
-
 ### 4. Calculate the GVI for the sample sites
 You can run this script in CSC Taito computing environment by using the provided batch script.
 
@@ -55,7 +52,6 @@ You can run this script in CSC Taito computing environment by using the provided
 
 **Use script:** [4_GVI_local_calculator.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/4_GVI_local_calculator.py), GVI_local_calculator_batch
 
-<img src=
 
 ### 5. Save as shapefile
 
