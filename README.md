@@ -66,6 +66,8 @@ panoID: p0G9MEiHR9zXmuMMatfiKw panoDate: 2009-07 longitude: 25.001899 latitude: 
 
 ## 5. Save as shapefile
 
+To be able to make some geospatial analyses or visualisations with the data it is good to save it as a georeferenced shapefile. 
+
 **Data in:** GVI values.csv
 
 **Data out:** Point shapefile of with the GVI values for every sample site.
