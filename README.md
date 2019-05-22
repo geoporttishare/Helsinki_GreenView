@@ -34,7 +34,7 @@ panoID: -TuQHCfniQn3hbpDFVCsRw panoDate: 2011-08 longitude: 24.897409 latitude: 
 
 
 ## 3. Download and save the GSV images
-Based on the metadata information you now know when are the images taken. You can download the Google imagery of Helsinki using only summermonths when the leaves are usually green (May- September). Every panorama will be downloaded in 6 images and saved alpabetically based on the panoID first letters. You can run this script in CSC Taito computing environment by using the provided batch script.
+Based on the metadata information you now know when are the images taken. You can download the Google imagery of Helsinki using only summermonths when the leaves are usually green (May- September). Every panorama will be downloaded in 6 images and saved alpabetically based on the panoID first letters. The download will take some time and the images will require about 20 gigabytes of space on your hard drive. You can run this script in CSC Taito computing environment by using the provided batch script.
 
 **Data in:** downloaded metadata text file
 
