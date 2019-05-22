@@ -8,44 +8,47 @@ The modified scripts are based on the Treepedia_Public repository by @mittrees a
 
 ## Workflow
 ### 1. Create sample points along the street network of Helsinki
-Data in: OpenStreetMap road network of Helsinki
+**Data in:** OpenStreetMap road network of Helsinki
 
-Data out: Sample points between every 20m along the street network of wanted road segments.
+**Data out:** Sample points between every 20m along the street network of wanted road segments.
 
-Use script: [1_createPoints.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/1_createPoints_org.py)
+**Use script:** [1_createPoints.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/1_createPoints_org.py)
 
 ### 2. Download the metadata based on the sample point locations
-Data in: Sample points
+**Data in:** Sample points
 
-Data out: Metadata text file of the panoramas located at the sample point locations
+**Data out:** Metadata text file of the panoramas located at the sample point locations
 
-Use script: [2_metadataCollector.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/2_metadataCollector.py)
+**Use script:** [2_metadataCollector.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/2_metadataCollector.py)
 
 You also need: Google API key
 
 ### 3. Download and save the GSV images
-Data in: downloaded metadata
+You can run this script in CSC Taito computing environment by using the provided batch script.
 
-Data out: GSV images of sample point locations. Every panorama is downloaded in 6 images 
+**Data in:** downloaded metadata
 
-Use script: [3_GSV_image_downloader.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/3_GSV_image_downloader.py), GSV_image_download_batch
+**Data out:** GSV images of sample point locations. Every panorama is downloaded in 6 images 
+
+**Use script:** [3_GSV_image_downloader.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/3_GSV_image_downloader.py), GSV_image_download_batch
 
 You also need: Google API key, Google signing signature
 
 ### 4. Calculate the GVI for the sample sites
+You can run this script in CSC Taito computing environment by using the provided batch script.
 
-Data in: GSV images
+**Data in:** GSV images
 
-Data out: GVI values for sample site locations.
+**Data out:** GVI values for sample site locations.
 
-Use script: [4_GVI_local_calculator.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/4_GVI_local_calculator.py), GVI_local_calculator_batch
+**Use script:** [4_GVI_local_calculator.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/4_GVI_local_calculator.py), GVI_local_calculator_batch
 
 ### 5. Save as shapefile
 
-Data in: GVI values.csv
+**Data in:** GVI values.csv
 
-Data out: GVI_Helsinki.shp
+**Data out:** GVI_Helsinki.shp
 
-Use script: [5_GVI_to_shp.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/5_GVI_to_shp.py)
+**Use script:** [5_GVI_to_shp.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/5_GVI_to_shp.py)
 
 
