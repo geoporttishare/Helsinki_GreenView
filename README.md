@@ -47,7 +47,7 @@ You can run this script in CSC Taito computing environment by using the provided
 
 **Data in:** GVI values.csv
 
-**Data out:** GVI_Helsinki.shp
+**Data out:** Point shapefile of with the GVI values for every sample site.
 
 **Use script:** [5_GVI_to_shp.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/5_GVI_to_shp.py)
 
