@@ -16,7 +16,7 @@ The modified scripts are based on the Treepedia_Public repository by @mittrees a
 
 
 ## 2. Download the metadata based on the sample point locations
-Based on the sample point locations, the metadataCollector will make a set of URL requests for the Google API. If API holds a street view panorama within 50m of the sample point location, the function downloads the metadata of that panorama. Sample of metadata:
+Based on the sample point locations, the metadataCollector will make a set of URL requests for the Google API. If API holds a street view panorama within 50m of the sample point location, the function downloads the metadata of that panorama. Example of metadata:
 ```
 panoID: g_asC6f050C67UYQoCXxAg panoDate: 2009-06 longitude: 24.894128 latitude: 60.211182
 panoID: iZNpqcbGu0z2Ho6buYjoWg panoDate: 2009-06 longitude: 24.894292 latitude: 60.211143
@@ -47,7 +47,14 @@ Based on the metadata information you now know when are the images taken. You ca
 
 
 ## 4. Calculate the GVI for the sample sites
-You can run this script in CSC Taito computing environment by using the provided batch script.
+GVI is calclulated for every GSV image separately. Sample site GVI is a mean GVI value of six images from that location. You can run this script in CSC Taito computing environment by using the provided batch script. For running time efficiency the script is run as an array job. Array jobs are separated by the first letter of the panoID.s. Beware that this process might take some time.
+
+Example of the GVI data:
+```
+panoID: d78rmtRxyB4EdrYnEeEryg panoDate: 2009-07 longitude: 25.00531 latitude: 60.262958, headingGVI: [16.858124999999998, 27.173125, 34.4375, 28.515625, 30.320000000000004, 16.455624999999998] MeanGVI: 25.6266666667
+panoID: drMyW3WBdd-0ZyCCKCoDHA panoDate: 2009-07 longitude: 25.004901 latitude: 60.263337, headingGVI: [13.020000000000001, 9.936250000000001, 8.425, 20.366875, 21.4725, 44.618125] MeanGVI: 19.6397916667
+panoID: p0G9MEiHR9zXmuMMatfiKw panoDate: 2009-07 longitude: 25.001899 latitude: 60.263875, headingGVI: [25.66625, 13.10375, 19.998125, 74.8325, 14.299999999999999, 29.485] MeanGVI: 29.5642708333
+```
 
 **Data in:** GSV images
 
