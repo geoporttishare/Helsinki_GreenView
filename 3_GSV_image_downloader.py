@@ -4,8 +4,6 @@ Created on Tue Nov 20 12:40:09 2018
 
 @author: admin
 """
-# -*- coding: utf-8 -*-
-"""
 Spyder Editor
 
 This is a temporary script file.
