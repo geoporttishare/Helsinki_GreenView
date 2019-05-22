@@ -334,9 +334,9 @@ if __name__ == "__main__":
     import itertools
     
     ArrayList = 'aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ1234567890-_' # pano ID starting letters for separating the array jobs
-    GSVimagesRoot = 'location of the GSV images'
-    GSVinfoRoot = 'location of the metadata file'
-    outputTextPath = 'location/ file of the output'
+    GSVimagesRoot = 'root of the GSV images'
+    GSVinfoRoot = 'root of the metadata file'
+    outputTextPath = 'root/ file of the output'
     greenmonth = ['05','06','07','08','09'] # months used
     myLetter = ArrayList[int(sys.argv[1])] 
     
