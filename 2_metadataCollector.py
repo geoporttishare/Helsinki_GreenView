@@ -2,7 +2,6 @@
 """
 Created on Wed Oct 31 14:45:24 2018
 
-@author: admin
 """
 #This function is used to collect the metadata of the GSV panoramas based on the sample point shapefile
 
