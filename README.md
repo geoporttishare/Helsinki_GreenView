@@ -51,4 +51,5 @@ You can run this script in CSC Taito computing environment by using the provided
 
 **Use script:** [5_GVI_to_shp.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/5_GVI_to_shp.py)
 
-<img src=https://github.com/geoporttishare/Helsinki_GreenView/blob/master/yhdistelm%C3%A4.png>
+
+
