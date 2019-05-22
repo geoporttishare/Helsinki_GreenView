@@ -2,9 +2,7 @@
 """
 Created on Fri May  3 13:54:03 2019
 
-@author: Administrator
 """
-
 # This script is used to concat the csv files containing GVI infromation and to export them as a shapefile"
 # Akseli Toikka and Ville Mäkinen Finnish Geospatial Research Institute FGI. National Land Survey of Finland
 
