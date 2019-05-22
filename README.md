@@ -8,6 +8,8 @@ The modified scripts are based on the Treepedia_Public repository by @mittrees a
 
 ## Workflow
 ## 1. Create sample points along the street network of Helsinki
+The first task is to download the OpenStreetMap data of Finland and cut the road network with Helsinki city municipality boarders. You can do this manually for example with QGis. Also other road data sources are ok, but the script is made to work with OpenStreetMap road data. Before creating the sample points, the road data is cleaned by removing motorways and some other types of roads. You can also skip this and create sample points for all roads available. 
+
 **Data in:** OpenStreetMap (or other) road network of Helsinki
 
 **Data out:** Sample points between every 20m along the street network of wanted road segments.
