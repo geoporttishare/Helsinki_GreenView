@@ -77,4 +77,3 @@ To be able to make some geospatial analyses or visualisations with the data it i
 **Use script:** [5_GVI_to_shp.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/5_GVI_to_shp.py)
 
 
-<img src= https://github.com/geoporttishare/Helsinki_GreenView/blob/master/Untitled.png>
