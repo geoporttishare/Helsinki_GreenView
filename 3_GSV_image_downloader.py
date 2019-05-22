@@ -2,13 +2,6 @@
 """
 Created on Tue Nov 20 12:40:09 2018
 
-@author: admin
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
 # The program downloads one GSV panorama in 6 images for the wanted locations. 
 # The GSV images are organized by alpabetical order based on the panoID of the panorama.
 # Folder named by the panoID contains all the 6 images downloaded from that location.
