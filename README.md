@@ -8,7 +8,7 @@ The modified scripts are based on the Treepedia_Public repository by @mittrees a
 
 ## Workflow
 ## 1. Create sample points along the street network of Helsinki
-The first task is to download the OpenStreetMap data of Finland and cut the road network with Helsinki city boarders. You can do this manually for example in QGis. Also other road data sources are ok, but the script is made to work with OpenStreetMap road data. Before creating the sample points, the road data is cleaned by removing motorways and some other types of roads. You can also skip this and create sample points for all roads available. 
+The first task is to download the OpenStreetMap data of Finland and cut the road network with Helsinki city borders. You can do this manually for example in QGIS. Also other road data sources are ok, but the script is made to work with OpenStreetMap road data. Before creating the sample points, the road data is cleaned by removing motorways and some other types of roads. You can also skip this and create sample points for all roads available. 
 
 **Data in:** OpenStreetMap (or other) road network of Helsinki
 
@@ -36,7 +36,7 @@ panoID: -TuQHCfniQn3hbpDFVCsRw panoDate: 2011-08 longitude: 24.897409 latitude: 
 
 
 ## 3. Download and save the GSV images
-Based on the metadata information you now know when are the images taken. You can download the Google imagery of Helsinki using only summermonths when the leaves are usually green (May- September). Every panorama will be downloaded in 6 images and saved alpabetically based on the panoID first letters. The download will take some time and the images will require about 20 gigabytes of space on your hard drive. You can run this script in CSC Taito computing environment by using the provided batch script.
+Based on the metadata information you now know when are the images taken. You can download the Google imagery of Helsinki using only summer months when the leaves are usually green (May- September). Every panorama will be downloaded in 6 images and saved alpabetically based on the panoID first letters. The download will take some time and the images will require about 20 gigabytes of space on your hard drive. You can run this script in CSC Taito computing environment by using the provided batch script.
 
 **Data in:** downloaded metadata text file
 
