@@ -77,3 +77,5 @@ To be able to make some geospatial analyses or visualisations with the data it i
 **Use script:** [5_GVI_to_shp.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/5_GVI_to_shp.py)
 
 
+
+When used, the following citing should be mentioned: "We made use of geospatial data/instructions/computing resources provided by the Open Geospatial Information Infrastructure for Research (oGIIR, urn:nbn:fi:research-infras-2016072513) funded by the Academy of Finland.
