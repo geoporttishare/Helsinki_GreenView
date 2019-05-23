@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 20 12:40:09 2018
+
+#Created on Tue Nov 20 12:40:09 2018
 
 # The program downloads one GSV panorama in 6 images for the wanted locations. 
 # The GSV images are organized by alpabetical order based on the panoID of the panorama.
