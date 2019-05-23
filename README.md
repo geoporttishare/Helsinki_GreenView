@@ -42,7 +42,7 @@ Based on the metadata information you now know when are the images taken. You ca
 
 **Data out:** GSV images of sample point locations.
 
-**Use script:** [3_GSV_image_downloader.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/3_GSV_image_downloader.py), GSV_image_download_batch
+**Use script:** [3_GSV_image_downloader.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/3_GSV_image_downloader.py), [GSV_image_download_batch](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/GSV_Image_download_batch.py)
 
 **You also need**: Google API key, Google signing signature
 
