@@ -11,6 +11,7 @@ import os
 from geopandas import GeoDataFrame
 from shapely.geometry import Point
 import numpy as np
+import pycrs
 
 # This script is used to concat the csv files containing GVI infromation and to export them as a shapefile"
 # Akseli Toikka and Ville Mäkinen Finnish Geospatial Research Institute FGI. National Land Survey of Finland.
@@ -77,6 +78,10 @@ Geodata = gpd.GeoDataFrame(Data, crs = crs, geometry = geometry)
 
 #check how it looks
 print(Geodata.head())
+
+#save the crs as projection for the shapefile
+epsg_code = 4326
+Geodata.crs = pycrs.parse.from_epsg_code(epsg_code).to_proj4()
 
 #save the result as a shapefile
 out_shp= 'Name of the file.shp'
