@@ -12,6 +12,6 @@ module load gcc/4.9.3
 module load intelmpi/5.1.1
 module load mkl/11.3.0
 module load python/2.7.10
-source /homeappl/home/toikkaak/venv_treepedia/bin/activate 
-cd /wrk/toikkaak
+source /homeappl/home/username/venv_treepedia/bin/activate 
+cd /wrk/username
 srun python GreenView_local_calculator.py $SLURM_ARRAY_TASK_ID
