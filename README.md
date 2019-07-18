@@ -62,7 +62,7 @@ panoID: p0G9MEiHR9zXmuMMatfiKw panoDate: 2009-07 longitude: 25.001899 latitude: 
 
 **Data out:** GVI values for sample site locations.
 
-**Use script:** [4_GVI_local_calculator.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/4_GVI_local_calculator.py), [GVI_local_calculator_batch](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/GVI_local_calculator_batch.py)
+**Use script:** [4_GVI_local_calculator.py](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/4_GreenView_local_calculator.py), [GVI_local_calculator_batch](https://github.com/geoporttishare/Helsinki_GreenView/blob/master/GVI_local_calculator_batch.py)
 
 
 
